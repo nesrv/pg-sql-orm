@@ -21,7 +21,7 @@ query_create_table_authors = '''
     middle_name text
     );
 '''
-# sql_create_database = cursor.execute('CREATE SCHEMA bookstore;')  
+ 
 sql_create_database = cursor.execute(query_create_table_authors)  
   
 print('create table')
